@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class Avion extends vehiculo_aereo {
     private String t_pasajero;

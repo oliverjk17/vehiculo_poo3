@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 abstract class Vehiculo {
      private String marca,matricula,modelo,color,transmision;

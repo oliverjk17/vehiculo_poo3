@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class vehiculo_aereo extends Vehiculo {
     private String material;

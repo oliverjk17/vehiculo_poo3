@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class Helicoptero extends vehiculo_aereo {
     private String t_atterizaje, t_heli;

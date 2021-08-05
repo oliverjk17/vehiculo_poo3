@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class Automovil extends vehiculo_terrestre {
     private String t_freno,t_refrigeracion,t_carro;

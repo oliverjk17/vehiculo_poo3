@@ -1,7 +1,7 @@
 package modelo;
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class Moto extends vehiculo_terrestre {
     private String t_moto;

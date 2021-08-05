@@ -6,7 +6,7 @@
 package modelo;
 /**
  *
- * @author Walter Monge
+ * @author oliver kies
  */
 public class vehiculo_terrestre extends Vehiculo {
     private String placa,chasis;
