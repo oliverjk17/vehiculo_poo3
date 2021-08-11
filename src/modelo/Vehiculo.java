@@ -10,13 +10,15 @@ package modelo;
  * @author oliver kies
  */
 abstract class Vehiculo {
-     private String marca,matricula,modelo,color,transmision;
-     private int cilindraje,motor;
+     public String marca,matricula,modelo,color,transmision;
+     public int cilindraje,motor;
      public Vehiculo(){}
 
     public Vehiculo(String transmision) {
         this.transmision = transmision;
     }
+    
+   
      
     public Vehiculo(String marca, String matricula, String modelo, String color, int cilindraje, int motor) {
         this.marca = marca;
@@ -84,7 +86,7 @@ abstract class Vehiculo {
     public void setTransmision(String transmision) {
         this.transmision = transmision;
     }
-    
+        protected void agregar(){}
      public void encender(){}
      public void apagar(){}
 }

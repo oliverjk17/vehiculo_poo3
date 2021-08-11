@@ -13,13 +13,7 @@ public class Avion extends vehiculo_aereo {
     private String t_pasajero;
     private int turbinas,n_puertas;
     public Avion(){}
-    public Avion(String t_pasajero, int turbinas, int n_puertas, String material, int altura, int c_pasajeros, int c_equipaje, int v_maxima, String marca, String matricula, String modelo, String color, int cilindraje, int caballos) {
-        super(material, altura, c_pasajeros, v_maxima, marca, matricula, modelo, color, cilindraje, caballos);
-        this.t_pasajero = t_pasajero;
-        this.turbinas = turbinas;
-        this.n_puertas = n_puertas;
-    }
-
+   
     public String getT_pasajero() {
         return t_pasajero;
     }

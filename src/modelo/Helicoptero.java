@@ -13,12 +13,7 @@ public class Helicoptero extends vehiculo_aereo {
     private String t_atterizaje, t_heli;
     private int c_elices;
     public Helicoptero(){}
-    public Helicoptero(String t_atterizaje, String t_heli, int c_elices, String material, int altura, int c_pasajeros, int c_equipaje, int v_maxima, String marca, String matricula, String modelo, String color, int cilindraje, int caballos) {
-        super(material, altura, c_pasajeros, v_maxima, marca, matricula, modelo, color, cilindraje, caballos);
-        this.t_atterizaje = t_atterizaje;
-        this.t_heli = t_heli;
-        this.c_elices = c_elices;
-    }
+  
 
     public String getT_atterizaje() {
         return t_atterizaje;

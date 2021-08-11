@@ -10,33 +10,28 @@ package modelo;
  * @author oliver kies
  */
 public class vehiculo_aereo extends Vehiculo {
-    private String material;
-    private int altura,c_pasajeros,v_maxima;
+    private String puertas_emer,tipo;
+    private int c_pasajeros,n_motores;
     public vehiculo_aereo(){}
-    public vehiculo_aereo(String material, int altura, int c_pasajeros, int v_maxima, String marca, String matricula, String modelo, String color, int cilindraje, int caballos) {
+   
+    public vehiculo_aereo(String puertas_emer, String tipo , int c_pasajeros, String marca, String matricula, String modelo, String color, int cilindraje, int caballos) {
         super(marca, matricula, modelo, color, cilindraje, caballos);
-        this.material = material;
-        this.altura = altura;
+        this.puertas_emer = puertas_emer;
+
         this.c_pasajeros = c_pasajeros;
         
-        this.v_maxima = v_maxima;
+      
     }
 
     public String getMaterial() {
-        return material;
+        return puertas_emer;
     }
 
     public void setMaterial(String material) {
-        this.material = material;
+        this.puertas_emer = material;
     }
 
-    public int getAltura() {
-        return altura;
-    }
-
-    public void setAltura(int altura) {
-        this.altura = altura;
-    }
+   
 
     public int getC_pasajeros() {
         return c_pasajeros;
@@ -46,15 +41,24 @@ public class vehiculo_aereo extends Vehiculo {
         this.c_pasajeros = c_pasajeros;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getN_motores() {
+        return n_motores;
+    }
+
+    public void setN_motores(int n_motores) {
+        this.n_motores = n_motores;
+    }
+
     
 
-    public int getV_maxima() {
-        return v_maxima;
-    }
-
-    public void setV_maxima(int v_maxima) {
-        this.v_maxima = v_maxima;
-    }
 
     @Override
      public void encender(){}

@@ -5,13 +5,13 @@ package modelo;
  */
 public class Moto extends vehiculo_terrestre {
     private String t_moto;
-    private int t_llanta,peso,altura;
+    private int peso,altura;
     public Moto(){}
     public Moto(String t_moto,  int t_llanta, int peso, int altura, String placa, String t_gasolina, int llantas, String marca, String matricula, String modelo, String color, int cilindraje, int caballos) {
         super(placa, t_gasolina, llantas, marca, matricula, modelo, color, cilindraje, caballos);
         this.t_moto = t_moto;
 
-        this.t_llanta = t_llanta;
+       
         this.peso = peso;
         this.altura = altura;
     }
@@ -25,14 +25,6 @@ public class Moto extends vehiculo_terrestre {
     }
 
    
-
-    public int getT_llanta() {
-        return t_llanta;
-    }
-
-    public void setT_llanta(int t_llanta) {
-        this.t_llanta = t_llanta;
-    }
 
     public int getPeso() {
         return peso;
